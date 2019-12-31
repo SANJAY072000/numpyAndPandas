@@ -1,4 +1,5 @@
 lst = list(map(int, input().split()))
-lst.remove(max(lst))
-print(max(lst))
+sst = list(map(int, input().split()))
+
+print(sorted(lst + sst))
 
